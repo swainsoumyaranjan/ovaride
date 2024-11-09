@@ -51,18 +51,15 @@ Navigate to the backend directory.
 Configure MySQL credentials in application.properties.
 Run the Spring Boot application:
 bash
-Copy code
 ./mvnw spring-boot:run
 Frontend Setup (React)
 
 Navigate to the frontend directory.
 Install dependencies:
 bash
-Copy code
 npm install
 Start the React application:
 bash
-Copy code
 npm start
 Run the Application
 
@@ -77,7 +74,6 @@ POST /api/videos/{id}/like - Like a specific video.
 POST /api/videos/{id}/comment - Add a comment to a video.
 Frontend Structure
 plaintext
-Copy code
 frontend/
 ├── public/
 ├── src/
@@ -88,7 +84,6 @@ frontend/
 ├── package.json
 Backend Structure
 plaintext
-Copy code
 backend/
 ├── src/
 │   ├── main/
@@ -108,18 +103,15 @@ Contributions are welcome! Please follow these steps:
 Fork the repository.
 Create a new branch for your feature:
 bash
-Copy code
 git checkout -b feature-name
 Commit your changes and push the branch:
 bash
-Copy code
 git push origin feature-name
 Submit a Pull Request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 yaml
-Copy code
+
 
 ---
 
